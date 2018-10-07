@@ -18,28 +18,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdK-Ba-soc">
-                                <rect key="frame" x="251" y="230" width="59" height="30"/>
+                                <rect key="frame" x="251" y="155" width="59" height="30"/>
                                 <state key="normal" title="Switch 2"/>
                                 <connections>
                                     <action selector="button_two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bh7-QL-Jx7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3o-KZ-b8o">
-                                <rect key="frame" x="65" y="230" width="57" height="30"/>
+                                <rect key="frame" x="65" y="155" width="57" height="30"/>
                                 <state key="normal" title="Switch 1"/>
                                 <connections>
                                     <action selector="button_one:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lNa-nR-u1K"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwk-FD-QcM">
-                                <rect key="frame" x="65" y="345" width="60" height="30"/>
+                                <rect key="frame" x="65" y="270" width="60" height="30"/>
                                 <state key="normal" title="Switch 3"/>
                                 <connections>
                                     <action selector="button_three:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CG9-TK-g39"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xGn-q0-XQw">
-                                <rect key="frame" x="65" y="145" width="161" height="30"/>
+                                <rect key="frame" x="65" y="70" width="161" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
@@ -48,27 +48,27 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUg-Tv-uII">
-                                <rect key="frame" x="251" y="145" width="59" height="30"/>
+                                <rect key="frame" x="251" y="70" width="59" height="30"/>
                                 <state key="normal" title="Connect"/>
                                 <connections>
                                     <action selector="connect_button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AMu-o0-a3p"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcR-Wz-dRY">
-                                <rect key="frame" x="65" y="122.5" width="31" height="14.5"/>
+                                <rect key="frame" x="65" y="47.5" width="31" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3H-PI-hSD">
-                                <rect key="frame" x="250" y="345" width="60" height="30"/>
+                                <rect key="frame" x="250" y="270" width="60" height="30"/>
                                 <state key="normal" title="Switch 4"/>
                                 <connections>
                                     <action selector="button_four:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HXJ-ZE-MYg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49n-fx-kh0">
-                                <rect key="frame" x="65" y="453" width="80" height="30"/>
+                                <rect key="frame" x="65" y="378" width="80" height="30"/>
                                 <state key="normal" title="Sequence 1"/>
                                 <connections>
                                     <action selector="sequence_one:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HZm-PE-lBk"/>
@@ -85,7 +85,7 @@
                             <constraint firstItem="cdK-Ba-soc" firstAttribute="centerY" secondItem="I3o-KZ-b8o" secondAttribute="centerY" id="OTC-Cg-1D6"/>
                             <constraint firstItem="dUg-Tv-uII" firstAttribute="leading" secondItem="xGn-q0-XQw" secondAttribute="trailing" constant="25" id="Qn2-fT-eQ7"/>
                             <constraint firstItem="xGn-q0-XQw" firstAttribute="top" secondItem="gcR-Wz-dRY" secondAttribute="bottom" constant="8" id="W6W-k1-1Hm"/>
-                            <constraint firstItem="xGn-q0-XQw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="125" id="Wz8-bm-qAZ"/>
+                            <constraint firstItem="xGn-q0-XQw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Wz8-bm-qAZ"/>
                             <constraint firstItem="gcR-Wz-dRY" firstAttribute="leading" secondItem="xGn-q0-XQw" secondAttribute="leading" id="c9S-jt-fwA"/>
                             <constraint firstItem="gwk-FD-QcM" firstAttribute="top" secondItem="I3o-KZ-b8o" secondAttribute="bottom" constant="85" id="deb-D4-UR8"/>
                             <constraint firstItem="I3o-KZ-b8o" firstAttribute="top" secondItem="xGn-q0-XQw" secondAttribute="bottom" constant="55" id="gkO-Ez-7hN"/>
