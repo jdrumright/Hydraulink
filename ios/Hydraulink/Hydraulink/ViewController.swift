@@ -44,6 +44,10 @@ class ViewController: UIViewController, StreamDelegate {
     self.client.send_message(message: "switch:gpio_BR;")
   }
 
+  @IBAction func sequence_one(_ sender: UIButton) {
+    self.client.send_message(message: "sequence:1 ;")
+  }
+
   @IBAction func connect_button(_ sender: UIButton) {
     let addr = addr_box.text
     let server_info = ServerInfo.init(ip_addr: addr!, 9999)

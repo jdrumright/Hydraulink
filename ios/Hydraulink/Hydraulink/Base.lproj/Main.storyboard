@@ -67,6 +67,13 @@
                                     <action selector="button_four:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HXJ-ZE-MYg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49n-fx-kh0">
+                                <rect key="frame" x="65" y="453" width="80" height="30"/>
+                                <state key="normal" title="Sequence 1"/>
+                                <connections>
+                                    <action selector="sequence_one:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HZm-PE-lBk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -83,9 +90,11 @@
                             <constraint firstItem="gwk-FD-QcM" firstAttribute="top" secondItem="I3o-KZ-b8o" secondAttribute="bottom" constant="85" id="deb-D4-UR8"/>
                             <constraint firstItem="I3o-KZ-b8o" firstAttribute="top" secondItem="xGn-q0-XQw" secondAttribute="bottom" constant="55" id="gkO-Ez-7hN"/>
                             <constraint firstItem="cdK-Ba-soc" firstAttribute="trailing" secondItem="dUg-Tv-uII" secondAttribute="trailing" id="iEH-OT-TMR"/>
+                            <constraint firstItem="49n-fx-kh0" firstAttribute="top" secondItem="gwk-FD-QcM" secondAttribute="bottom" constant="78" id="nsF-W6-CeG"/>
                             <constraint firstItem="I3o-KZ-b8o" firstAttribute="leading" secondItem="xGn-q0-XQw" secondAttribute="leading" id="qC2-fy-YdK"/>
                             <constraint firstItem="gwk-FD-QcM" firstAttribute="leading" secondItem="I3o-KZ-b8o" secondAttribute="leading" id="us9-cu-Pdy"/>
                             <constraint firstItem="Y3H-PI-hSD" firstAttribute="centerY" secondItem="gwk-FD-QcM" secondAttribute="centerY" id="wKf-FT-2wD"/>
+                            <constraint firstItem="49n-fx-kh0" firstAttribute="leading" secondItem="gwk-FD-QcM" secondAttribute="leading" id="xp2-aD-vF8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
