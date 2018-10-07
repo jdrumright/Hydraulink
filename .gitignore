@@ -1,0 +1,8 @@
+build*
+*.pyc
+*.avi
+*.kml
+*.list
+weights
+*.DS_Store*
+nohup.out

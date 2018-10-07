@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/terna/Desktop/practice/ios/iOSClient/Hydraulink.xcodeproj">
+      location = "self:iOSClient.xcodeproj">
    </FileRef>
 </Workspace>

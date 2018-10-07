@@ -12,20 +12,16 @@
 		512B6E722156DA0A0068A9F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512B6E702156DA0A0068A9F0 /* Main.storyboard */; };
 		512B6E742156DA0B0068A9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512B6E732156DA0B0068A9F0 /* Assets.xcassets */; };
 		512B6E772156DA0B0068A9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512B6E752156DA0B0068A9F0 /* LaunchScreen.storyboard */; };
-		512B6E7F2156DA310068A9F0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512B6E7E2156DA310068A9F0 /* Client.swift */; };
-		5152008E216974DD0076A90F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5152008D216974DD0076A90F /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		512B6E692156DA0A0068A9F0 /* Hydraulink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydraulink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		512B6E692156DA0A0068A9F0 /* iOSClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		512B6E6C2156DA0A0068A9F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		512B6E6E2156DA0A0068A9F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		512B6E712156DA0A0068A9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		512B6E732156DA0B0068A9F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		512B6E762156DA0B0068A9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		512B6E782156DA0B0068A9F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		512B6E7E2156DA310068A9F0 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
-		5152008D216974DD0076A90F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +38,7 @@
 		512B6E602156DA0A0068A9F0 = {
 			isa = PBXGroup;
 			children = (
-				5152008D216974DD0076A90F /* Default-568h@2x.png */,
-				512B6E6B2156DA0A0068A9F0 /* Hydraulink */,
+				512B6E6B2156DA0A0068A9F0 /* iOSClient */,
 				512B6E6A2156DA0A0068A9F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,31 +46,30 @@
 		512B6E6A2156DA0A0068A9F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				512B6E692156DA0A0068A9F0 /* Hydraulink.app */,
+				512B6E692156DA0A0068A9F0 /* iOSClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		512B6E6B2156DA0A0068A9F0 /* Hydraulink */ = {
+		512B6E6B2156DA0A0068A9F0 /* iOSClient */ = {
 			isa = PBXGroup;
 			children = (
 				512B6E6C2156DA0A0068A9F0 /* AppDelegate.swift */,
 				512B6E6E2156DA0A0068A9F0 /* ViewController.swift */,
-				512B6E7E2156DA310068A9F0 /* Client.swift */,
 				512B6E702156DA0A0068A9F0 /* Main.storyboard */,
 				512B6E732156DA0B0068A9F0 /* Assets.xcassets */,
 				512B6E752156DA0B0068A9F0 /* LaunchScreen.storyboard */,
 				512B6E782156DA0B0068A9F0 /* Info.plist */,
 			);
-			path = Hydraulink;
+			path = iOSClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		512B6E682156DA0A0068A9F0 /* Hydraulink */ = {
+		512B6E682156DA0A0068A9F0 /* iOSClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 512B6E7B2156DA0B0068A9F0 /* Build configuration list for PBXNativeTarget "Hydraulink" */;
+			buildConfigurationList = 512B6E7B2156DA0B0068A9F0 /* Build configuration list for PBXNativeTarget "iOSClient" */;
 			buildPhases = (
 				512B6E652156DA0A0068A9F0 /* Sources */,
 				512B6E662156DA0A0068A9F0 /* Frameworks */,
@@ -85,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Hydraulink;
+			name = iOSClient;
 			productName = iOSClient;
-			productReference = 512B6E692156DA0A0068A9F0 /* Hydraulink.app */;
+			productReference = 512B6E692156DA0A0068A9F0 /* iOSClient.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 512B6E642156DA0A0068A9F0 /* Build configuration list for PBXProject "Hydraulink" */;
+			buildConfigurationList = 512B6E642156DA0A0068A9F0 /* Build configuration list for PBXProject "iOSClient" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				512B6E682156DA0A0068A9F0 /* Hydraulink */,
+				512B6E682156DA0A0068A9F0 /* iOSClient */,
 			);
 		};
 /* End PBXProject section */
@@ -129,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				512B6E772156DA0B0068A9F0 /* LaunchScreen.storyboard in Resources */,
-				5152008E216974DD0076A90F /* Default-568h@2x.png in Resources */,
 				512B6E742156DA0B0068A9F0 /* Assets.xcassets in Resources */,
 				512B6E722156DA0A0068A9F0 /* Main.storyboard in Resources */,
 			);
@@ -144,7 +137,6 @@
 			files = (
 				512B6E6F2156DA0A0068A9F0 /* ViewController.swift in Sources */,
 				512B6E6D2156DA0A0068A9F0 /* AppDelegate.swift in Sources */,
-				512B6E7F2156DA310068A9F0 /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +284,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPY4SPXRZE;
-				INFOPLIST_FILE = "$(SRCROOT)/Hydraulink/Info.plist";
+				INFOPLIST_FILE = iOSClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tk.Hydraulink;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tk.iOSClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,12 +302,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPY4SPXRZE;
-				INFOPLIST_FILE = "$(SRCROOT)/Hydraulink/Info.plist";
+				INFOPLIST_FILE = iOSClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tk.Hydraulink;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tk.iOSClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		512B6E642156DA0A0068A9F0 /* Build configuration list for PBXProject "Hydraulink" */ = {
+		512B6E642156DA0A0068A9F0 /* Build configuration list for PBXProject "iOSClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				512B6E792156DA0B0068A9F0 /* Debug */,
@@ -334,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		512B6E7B2156DA0B0068A9F0 /* Build configuration list for PBXNativeTarget "Hydraulink" */ = {
+		512B6E7B2156DA0B0068A9F0 /* Build configuration list for PBXNativeTarget "iOSClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				512B6E7C2156DA0B0068A9F0 /* Debug */,

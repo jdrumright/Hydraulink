@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hydraulink" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdK-Ba-soc">
+                                <rect key="frame" x="251" y="230" width="59" height="30"/>
+                                <state key="normal" title="Switch 2"/>
+                                <connections>
+                                    <action selector="button_two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bh7-QL-Jx7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3o-KZ-b8o">
+                                <rect key="frame" x="65" y="230" width="57" height="30"/>
+                                <state key="normal" title="Switch 1"/>
+                                <connections>
+                                    <action selector="button_one:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lNa-nR-u1K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwk-FD-QcM">
+                                <rect key="frame" x="65" y="345" width="60" height="30"/>
+                                <state key="normal" title="Switch 3"/>
+                                <connections>
+                                    <action selector="button_three:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CG9-TK-g39"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xGn-q0-XQw">
+                                <rect key="frame" x="65" y="145" width="161" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="hide_keyboard:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="ZLG-b3-dBa"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUg-Tv-uII">
+                                <rect key="frame" x="251" y="145" width="59" height="30"/>
+                                <state key="normal" title="Connect"/>
+                                <connections>
+                                    <action selector="connect_button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AMu-o0-a3p"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcR-Wz-dRY">
+                                <rect key="frame" x="65" y="122.5" width="31" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3H-PI-hSD">
+                                <rect key="frame" x="250" y="345" width="60" height="30"/>
+                                <state key="normal" title="Switch 4"/>
+                                <connections>
+                                    <action selector="button_four:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HXJ-ZE-MYg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dUg-Tv-uII" secondAttribute="trailing" constant="65" id="CqK-YK-1aY"/>
+                            <constraint firstItem="Y3H-PI-hSD" firstAttribute="trailing" secondItem="cdK-Ba-soc" secondAttribute="trailing" id="EbP-u8-0S2"/>
+                            <constraint firstItem="dUg-Tv-uII" firstAttribute="centerY" secondItem="xGn-q0-XQw" secondAttribute="centerY" id="Ie3-I9-9h3"/>
+                            <constraint firstItem="xGn-q0-XQw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="KQp-qs-2Ld"/>
+                            <constraint firstItem="cdK-Ba-soc" firstAttribute="centerY" secondItem="I3o-KZ-b8o" secondAttribute="centerY" id="OTC-Cg-1D6"/>
+                            <constraint firstItem="dUg-Tv-uII" firstAttribute="leading" secondItem="xGn-q0-XQw" secondAttribute="trailing" constant="25" id="Qn2-fT-eQ7"/>
+                            <constraint firstItem="xGn-q0-XQw" firstAttribute="top" secondItem="gcR-Wz-dRY" secondAttribute="bottom" constant="8" id="W6W-k1-1Hm"/>
+                            <constraint firstItem="xGn-q0-XQw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="125" id="Wz8-bm-qAZ"/>
+                            <constraint firstItem="gcR-Wz-dRY" firstAttribute="leading" secondItem="xGn-q0-XQw" secondAttribute="leading" id="c9S-jt-fwA"/>
+                            <constraint firstItem="gwk-FD-QcM" firstAttribute="top" secondItem="I3o-KZ-b8o" secondAttribute="bottom" constant="85" id="deb-D4-UR8"/>
+                            <constraint firstItem="I3o-KZ-b8o" firstAttribute="top" secondItem="xGn-q0-XQw" secondAttribute="bottom" constant="55" id="gkO-Ez-7hN"/>
+                            <constraint firstItem="cdK-Ba-soc" firstAttribute="trailing" secondItem="dUg-Tv-uII" secondAttribute="trailing" id="iEH-OT-TMR"/>
+                            <constraint firstItem="I3o-KZ-b8o" firstAttribute="leading" secondItem="xGn-q0-XQw" secondAttribute="leading" id="qC2-fy-YdK"/>
+                            <constraint firstItem="gwk-FD-QcM" firstAttribute="leading" secondItem="I3o-KZ-b8o" secondAttribute="leading" id="us9-cu-Pdy"/>
+                            <constraint firstItem="Y3H-PI-hSD" firstAttribute="centerY" secondItem="gwk-FD-QcM" secondAttribute="centerY" id="wKf-FT-2wD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="5CQ-c0-MTi" appends="YES" id="XFh-vJ-FZb"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="addr_box" destination="xGn-q0-XQw" id="wa4-fr-93F"/>
+                        <outlet property="info_label" destination="gcR-Wz-dRY" id="XQj-f6-CBB"/>
+                        <outlet property="tap" destination="5CQ-c0-MTi" id="Ee6-zW-pHP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="5CQ-c0-MTi">
+                    <connections>
+                        <action selector="tap:" destination="BYZ-38-t0r" id="gu2-t3-0cz"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="26.53673163418291"/>
+        </scene>
+    </scenes>
+</document>
